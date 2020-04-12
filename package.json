@@ -1,0 +1,44 @@
+{
+    "name": "sce-marketpro-api-service",
+    "version": "1.0.0",
+    "description": "sce-marketpro-api-service",
+    "main": "app.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "mocha --file ./test/setup.js --recursive --exit --timeout 20000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/djabarovgeorge/sce-marketpro-api-service.git"
+    },
+    "author": "George Djabarov, Nir Vaknin, Anna Rogojine, Dor Hazout",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/djabarovgeorge/sce-marketpro-api-service/issues"
+    },
+    "homepage": "https://github.com/djabarovgeorge/sce-marketpro-api-service.git#readme",
+    "dependencies": {
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "mocha": "^5.2.0",
+        "mochawesome": "^4.1.0",
+        "mongoose": "^5.9.7",
+        "nodemon": "^2.0.2",
+        "request": "^2.88.0",
+        "supertest": "^4.0.2"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-config-node": "^4.0.0",
+        "eslint-config-prettier": "^6.10.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "prettier": "^2.0.4"
+    }
+}
